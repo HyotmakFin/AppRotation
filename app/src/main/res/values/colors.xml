@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 回退配色（Android 12 以下）。Android 12+ 由 DynamicColors 用壁纸取色覆盖 -->
+    <color name="m3_primary">#0061A4</color>
+    <color name="m3_on_primary">#FFFFFF</color>
+    <color name="m3_primary_container">#D1E4FF</color>
+    <color name="m3_on_primary_container">#001D36</color>
+    <color name="m3_secondary">#535F70</color>
+    <color name="m3_on_secondary">#FFFFFF</color>
+    <color name="m3_secondary_container">#D7E3F7</color>
+    <color name="m3_on_secondary_container">#101C2B</color>
+    <color name="m3_tertiary">#6B5778</color>
+    <color name="m3_on_tertiary">#FFFFFF</color>
+    <color name="m3_tertiary_container">#F2DAFF</color>
+    <color name="m3_on_tertiary_container">#251431</color>
+    <color name="m3_error">#BA1A1A</color>
+    <color name="m3_on_error">#FFFFFF</color>
+    <color name="m3_error_container">#FFDAD6</color>
+    <color name="m3_on_error_container">#410002</color>
+    <color name="m3_surface">#FCFCFF</color>
+    <color name="m3_on_surface">#1A1C1E</color>
+    <color name="m3_surface_variant">#DFE2EB</color>
+    <color name="m3_on_surface_variant">#43474E</color>
+    <color name="m3_surface_container">#EEF0F5</color>
+    <color name="m3_surface_container_high">#E7E9EF</color>
+    <color name="m3_outline">#73777F</color>
+    <color name="m3_outline_variant">#C3C6CF</color>
+</resources>

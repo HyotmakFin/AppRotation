@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        // XposedBridge API (de.robv.android.xposed:api)
+        maven { url 'https://api.xposed.info/' }
+    }
+}
+
+rootProject.name = "AppRotation"
+include ':app'

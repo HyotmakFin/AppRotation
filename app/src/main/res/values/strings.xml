@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">旋转控制</string>
+    <string name="module_description">为指定应用固定屏幕旋转角度（0° / 90° / 180° / 270°）</string>
+
+    <string name="switch_global">启用模块</string>
+    <string name="switch_global_desc">关闭后所有应用的设置暂停生效</string>
+    <string name="search_hint">搜索应用名或包名</string>
+    <string name="hint_module">在 LSPosed 中勾选作用域后，点击应用设置角度。修改设置后需重启目标应用。</string>
+    <string name="loading">正在加载应用列表</string>
+    <string name="empty">没有匹配的应用</string>
+
+    <string name="tip_follow_system">已设为跟随系统</string>
+    <string name="tip_applied">已设为 %1$s</string>
+    <string name="tip_restart_target">重启目标应用后生效</string>
+
+    <string name="perm_title">需要 root 权限</string>
+    <string name="perm_message">配置需要写入系统设置，被修改的应用才能读取。系统限制普通应用写入自定义设置项，因此保存配置需要 root 权限。</string>
+    <string name="perm_grant">请求授权</string>
+    <string name="root_running">正在请求 root</string>
+    <string name="root_ok">已获得 root 权限</string>
+    <string name="root_failed">未获得 root 权限，请检查 root 管理器是否放行了本应用</string>
+
+    <string-array name="rotation_options">
+        <item>跟随系统</item>
+        <item>0°（竖屏）</item>
+        <item>90°（横屏）</item>
+        <item>180°（反向竖屏）</item>
+        <item>270°（反向横屏）</item>
+    </string-array>
+</resources>
